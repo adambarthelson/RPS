@@ -26,8 +26,7 @@ class Move
   end.with_indifferent_access
 
   def self.[](value)
-    index = value.is_a?(Symbol) ? BY_NAME : BY_VALUE
-    index[value]
+    BY_NAME[value]
   end
 
   def <=>(other)
