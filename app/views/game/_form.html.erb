@@ -1,0 +1,4 @@
+<%= form_tag( throw_path, :method => :post ) do %>
+  <%= select_tag :sign, options_for_select(Move::NAMES) %>
+  <%= submit_tag "PLAY", class: "btn btn-success" %>
+<% end %>

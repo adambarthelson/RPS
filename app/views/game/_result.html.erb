@@ -1,0 +1,8 @@
+<div class="page-header result">
+  <h1>You <span><%= @result %></span>!</h1>
+  <h2>Computer played <span><%= @comp_move.name %></span></h2>
+  <div class="<%= @comp_move.name %> hand"></div>
+</div>
+<div>
+    <p><%= link_to "New Game", root_path, class: 'btn btn-info new' %></p>
+</div>

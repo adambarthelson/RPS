@@ -1,0 +1,39 @@
+// Place all the styles related to the Game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.page-header h1,
+.page-header h2,
+.page-header h3,
+ p {
+  text-align: center;
+}
+
+.hand {
+  display: block;
+  height:180px;
+  margin:20px 20px;
+}
+
+.scissors{
+  background:url(asset-path('scissors.png')) no-repeat center;
+}
+
+.paper{
+  background:url(asset-path('paper.png')) no-repeat center;
+}
+
+.rock{
+  background:url(asset-path('rock.png')) no-repeat center;
+}
+
+#sign {
+  height: 35px;
+}
